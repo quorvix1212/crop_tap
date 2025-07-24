@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f1e1;
+}
+
+.farm {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.tile {
+  width: 100px;
+  height: 100px;
+  background-image: url('assets/soil.png');
+  background-size: cover;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.crop {
+  background-image: url('assets/crop.png') !important;
+}
+
+.hidden {
+  display: none;
+}
+
+#gameOver {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
